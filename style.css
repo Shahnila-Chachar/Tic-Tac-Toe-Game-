@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap');
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background: linear-gradient(50deg, #06c099, #005366);
+  text-align: center;
+}
+.container {
+  height: 590px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.game {
+  
+}
+.childBox {
+  width: 63vmin;
+  height: 20vmin;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 6px;
+  margin-top: ;
+}
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  margin-top: 18px;
+  background-color: #dcdcdc;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
+  font-size: 28px;
+}
+#reset-btn {
+  width: 80px;
+  padding: 0.5rem;
+  font-size: 1.05rem;
+  cursor: pointer;
+  background-color: cornflowerblue;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 69, 0.3);
+  color: white;
+  margin-top: 30px;
+}
+
+h1 {
+  color: white;
+}
+
+#new-btn {
+  width: 120px;
+  padding: 0.5rem;
+  font-size: 1.05rem;
+  cursor: pointer;
+  background-color: cornflowerblue;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 69, 0.3);
+  color: white;
+  margin-bottom: 90px;
+}
+#msg {
+  text-align: center;
+  color: goldenrod;
+  font-size: 30px;
+  font-family: 'Baloo 2', cursive;
+}
+.hide {
+  display: none;
+}
+
+.o-style {
+  font-size: 40px;
+  font-weight: bold;
+  color: #006899; /* Blue for O */
+}
+.x-style {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ff5733; /* Orange-Red for X */
+}
+
