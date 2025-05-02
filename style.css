@@ -8,6 +8,7 @@
 body {
   background: linear-gradient(50deg, #06c099, #005366);
   text-align: center;
+  height: 100vh;
 }
 .container {
   height: 590px;
